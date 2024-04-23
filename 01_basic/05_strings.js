@@ -30,3 +30,5 @@ console.log(newStringOne.trim());
 const url = "https://pseudowebs.netlify.com/contact%20us";
 console.log(url.replace("%20", "-"));
 console.log(url.includes("shahid"));
+
+console.log(gameName.split("-"));
