@@ -7,6 +7,6 @@ accountCity = "Dainiya";
 
 accountEmail = "123@gmail.com";
 accountPassword = "789";
-accountCity = "Newyork";
+accountCity = "Newyorking";
 
 console.log(accountId);
