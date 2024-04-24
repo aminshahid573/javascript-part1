@@ -1,7 +1,6 @@
-
 # JavaScript Tutorial
 
-Welcome to the JavaScript Tutorial repository! This tutorial is designed to help beginners get started with JavaScript programming. In this tutorial, we cover fundamental concepts such as variables, strings, numbers, math operations, dates, time manipulation, arrays, objects, object destructuring, functions and parameters, heap and scope, functions with objects, scope levels, and hoisting.
+Welcome to the JavaScript Tutorial repository! This tutorial is designed to help beginners get started with JavaScript programming. In this tutorial, we cover fundamental concepts such as variables, strings, numbers, math operations, dates, time manipulation, arrays, objects, object destructuring, functions and parameters, heap and scope, functions with objects, scope levels, hoisting, and additional topics commonly asked in interviews.
 
 ## Table of Contents
 
@@ -11,6 +10,7 @@ Welcome to the JavaScript Tutorial repository! This tutorial is designed to help
 - [How to Use This Tutorial](#how-to-use-this-tutorial)
 - [Differences Between `slice` and `splice`](#differences-between-slice-and-splice)
 - [Differences Between Heap and Stack](#differences-between-heap-and-stack)
+- [Additional Interview Topics](#additional-interview-topics)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,21 +21,6 @@ JavaScript is a versatile programming language that is commonly used for web dev
 ## Topics Covered
 
 - **Variables**
-- **Strings**
-- **Numbers and Math**
-- **Date and Time**
-- **Arrays**
-- **Objects**
-- **Object Destructuring**
-- **Functions and Parameters**
-- **Heap and Scope**
-- **Functions with Objects**
-- **Scope Levels**
-- **Hoisting**
-
-## Syntax and Methods
-
-### Variables
 
 Syntax:
 ```javascript
@@ -46,7 +31,7 @@ let variableName = value;
 let age = 25;
 ```
 
-### Strings
+- **Strings**
 
 Syntax:
 ```javascript
@@ -57,7 +42,7 @@ let stringVariable = 'Hello, world!';
 let name = 'John';
 ```
 
-### Numbers and Math
+- **Numbers and Math**
 
 Syntax:
 ```javascript
@@ -65,7 +50,7 @@ Syntax:
 let result = 10 + 5;
 ```
 
-### Date and Time
+- **Date and Time**
 
 Syntax:
 ```javascript
@@ -73,7 +58,7 @@ Syntax:
 let currentDate = new Date();
 ```
 
-### Arrays
+- **Arrays**
 
 Syntax:
 ```javascript
@@ -84,7 +69,7 @@ let arrayName = [element1, element2, ...];
 let numbers = [1, 2, 3, 4, 5];
 ```
 
-### Objects
+- **Objects**
 
 Syntax:
 ```javascript
@@ -95,7 +80,7 @@ let objectName = { key1: value1, key2: value2, ... };
 let person = { name: 'John', age: 30 };
 ```
 
-### Object Destructuring
+- **Object Destructuring**
 
 Syntax:
 ```javascript
@@ -106,7 +91,7 @@ let { key1, key2 } = objectName;
 let { name, age } = person;
 ```
 
-### Functions and Parameters
+- **Functions and Parameters**
 
 Syntax:
 ```javascript
@@ -121,14 +106,14 @@ function greet(name) {
 }
 ```
 
-### Heap and Scope
+- **Heap and Scope**
 
 Syntax:
 ```javascript
 // No specific syntax, conceptually understanding heap and scope is important.
 ```
 
-### Functions with Objects
+- **Functions with Objects**
 
 Syntax:
 ```javascript
@@ -142,14 +127,14 @@ let person = { name: 'John', age: 30 };
 greet(person);
 ```
 
-### Scope Levels
+- **Scope Levels**
 
 Syntax:
 ```javascript
 // No specific syntax, understanding global, function, and block scope is important.
 ```
 
-### Hoisting
+- **Hoisting**
 
 Syntax:
 ```javascript
@@ -179,6 +164,21 @@ In summary, the key differences between `slice` and `splice` are:
 
 Understanding the difference between heap and stack is crucial for memory management in JavaScript.
 
+## Additional Interview Topics
+
+- **Closures**
+- **Promises and Async/Await**
+- **Prototypes and Prototypal Inheritance**
+- **Event Loop**
+- **Module Systems**
+- **Error Handling**
+- **ES6 Features**
+- **DOM Manipulation**
+- **Functional Programming**
+- **Testing**
+
+Including these topics in your tutorial or preparing materials for them can help learners prepare for JavaScript interviews comprehensively.
+
 ## Getting Started
 
 To get started with this tutorial, you'll need:
@@ -203,11 +203,8 @@ Contributions to this tutorial are welcome! If you find any errors, typos, or ha
 
 ## License
 
-This tutorial is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code and content for personal or commercial projects.
+This tutorial is licensed under the [Pseudowebs](LICENSE). You are free to use, modify, and distribute the code and content for personal or commercial projects.
 
 ---
 
 Happy coding! 🚀
-
-
-This structure presents all the topics covered, followed by a section detailing the syntax and mostly used methods for each topic. It also includes a table summarizing the difference between `slice` and `splice`, as well as the difference between heap and stack. Let me know if you need any further adjustments!
