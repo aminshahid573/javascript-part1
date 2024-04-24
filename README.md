@@ -8,6 +8,7 @@ Welcome to the JavaScript Tutorial repository! This tutorial is designed to help
 - [Topics Covered](#topics-covered)
 - [Getting Started](#getting-started)
 - [How to Use This Tutorial](#how-to-use-this-tutorial)
+- [Differences Between `slice` and `splice`](#differences-between-slice-and-splice)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,6 +40,20 @@ Each topic in this tutorial is organized into separate folders. Inside each fold
 3. Exercise files (if applicable) for hands-on practice.
 
 Feel free to explore the topics in any order you prefer. Start by reading the `README.md` file in the desired topic folder, then review the code examples, and finally, try out the exercises to solidify your understanding.
+
+## Differences Between `slice` and `splice`
+
+In JavaScript, both `slice` and `splice` are array methods used for manipulating arrays, but they serve different purposes.
+
+| Method   | Purpose                                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `slice`  | Extracts a portion of an array into a new array | The `slice` method returns a shallow copy of a portion of an array into a new array object without modifying the original array. It takes two parameters: `start` and `end`, where `start` is the beginning index and `end` is the ending index (exclusive). If `end` is not specified, `slice` extracts to the end of the array.                                                                                                   |
+| `splice` | Adds or removes elements from an array          | The `splice` method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. It takes three parameters: `start`, `deleteCount`, and optionally `item1`, `item2`, ..., `itemN`, where `start` is the index at which to start changing the array, `deleteCount` is the number of elements to remove, and `item1`, `item2`, ..., `itemN` are the elements to add to the array. |
+
+In summary, the key differences between `slice` and `splice` are:
+
+- `slice` does not modify the original array, it returns a new array with the extracted elements.
+- `splice` modifies the original array by adding or removing elements from it.
 
 ## Contributing
 
