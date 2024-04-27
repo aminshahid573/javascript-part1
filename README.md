@@ -7,7 +7,7 @@ Welcome to the JavaScript Tutorial repository! This tutorial is designed to help
 - [Introduction](#introduction)
 - [Topics Covered](#topics-covered)
 - [Getting Started](#getting-started)
-- [How to Use This Tutorial](#how-to-use-this-tutorial)
+- [How to Use This TutoriCreate Table of Contentsal](#how-to-use-this-tutorial)
 - [Differences Between `slice` and `splice`](#differences-between-slice-and-splice)
 - [Contributing](#contributing)
 - [License](#license)
