@@ -1,4 +1,4 @@
-// array
+// array ..
 
 const { log } = require("console");
 
